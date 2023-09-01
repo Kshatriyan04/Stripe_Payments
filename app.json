@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "payment_test",
-    "slug": "payment_test",
+    "slug": "loot8-payments",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.loot8.loot8_app",
+      "permissions": "com.android.vending.BILLING"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55943958-8ea8-4990-a472-3e4386fefdbd"
+      }
+    },
+    "owner": "kshatriyan"
   }
 }
